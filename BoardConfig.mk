@@ -26,7 +26,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/framework_manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG := toxic_enchilada_defconfig
+TARGET_KERNEL_CONFIG := enchilada_defconfig
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # inherit from the proprietary version
